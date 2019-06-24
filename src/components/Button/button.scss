@@ -8,8 +8,26 @@
     }
   }
   border-radius: 0.3rem;
-  height: 70%;
   transition-duration: 0.4s;
-  padding: 0 2rem;
-  margin: 0 0.2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 0 0.5rem;
+  span {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline;
+  }
+}
+
+.button-deafult {
+  width: 7rem;
+  height: 2rem;
+  max-width: 7rem;
+  max-height: 2rem;
 }
