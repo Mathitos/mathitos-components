@@ -68,8 +68,8 @@ Temporary Items
 # End of https://www.gitignore.io/api/osx,visualstudiocode
 
 # to remove auto generated css files
-/src/*.css
-/src/**/*.css
+src/*.css
+src/**/*.css
 
 # dont know what is it, will ignore then
 react-app-env.d.ts
