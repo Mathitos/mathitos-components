@@ -49,6 +49,7 @@
     "@storybook/addon-actions": "^5.1.9",
     "@storybook/addons": "^5.1.9",
     "@storybook/react": "^5.1.9",
+    "babel-eslint": "^10.0.2",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^5.0.0",
     "eslint-plugin-import": "^2.18.0",
