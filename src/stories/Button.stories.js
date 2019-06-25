@@ -6,27 +6,18 @@ import { action } from '@storybook/addon-actions'
 import Button from '../components/Button'
 
 storiesOf('Button', module)
-  .add('with text', () => (
+  .add('Primary theme', () => (
     <Button onClick={action('clicked')}>
       <span>Hello Button</span>
     </Button>
   ))
-  .add('with long text', () => (
-    <Button onClick={action('clicked')}>
-      <span>Helloooooooooooooooooooooooooooooooo Button</span>
+  .add('Secondary theme', () => (
+    <Button theme="secondary" onClick={action('clicked')}>
+      <span>Hello Button</span>
     </Button>
   ))
-  .add('with some emoji', () => (
-    <Button onClick={action('clicked')}>
-      <span role="img" aria-label="so cool">
-        😀 😎 👍 💯
-      </span>
-    </Button>
-  ))
-  .add('with a lot of emoji', () => (
-    <Button onClick={action('clicked')}>
-      <span role="img" aria-label="so cool">
-        😀 😎 👍 💯 😂 🙀 👏
-      </span>
+  .add('Disabled', () => (
+    <Button disabled onClick={action('clicked')}>
+      <span>Hello Button</span>
     </Button>
   ))

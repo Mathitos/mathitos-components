@@ -1,12 +1,23 @@
 @import '../../styles/_theme';
 .button {
   &--primary {
-    background-color: $lime;
-    color: $white;
-    &:hover {
-      background-color: $lime-green;
-    }
+    background-color: $transparent;
+    color: $lime-green;
+    border: 2px solid $lime-green;
   }
+  &--secondary {
+    background-color: $transparent;
+    color: $lemon-yellow;
+    border: 2px solid $lemon-yellow;
+  }
+  &--disabled {
+    opacity: 0.25;
+    background-color: $green-gray;
+    color: $dark-green-gray;
+    border: 2px solid $dark-green-gray;
+    cursor: not-allowed;
+  }
+  cursor: pointer;
   border-radius: 0.3rem;
   transition-duration: 0.4s;
   text-align: center;
