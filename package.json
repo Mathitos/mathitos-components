@@ -50,6 +50,7 @@
     "@storybook/addons": "^5.1.9",
     "@storybook/react": "^5.1.9",
     "@types/jest": "^24.0.15",
+    "@types/storybook__addon-info": "^4.1.2",
     "@types/storybook__react": "^4.0.2",
     "awesome-typescript-loader": "^5.2.1",
     "babel-eslint": "^10.0.2",
