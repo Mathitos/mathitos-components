@@ -5,17 +5,16 @@
   "dependencies": {
     "@babel/core": "^7.4.5",
     "@types/classnames": "^2.2.8",
-    "@types/jest": "^24.0.15",
     "@types/node": "^12.0.10",
     "@types/react": "^16.8.22",
     "@types/react-dom": "^16.8.4",
     "babel-loader": "^8.0.6",
     "classnames": "^2.2.6",
     "eslint": "5.3",
+    "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
-    "typescript": "^3.5.2",
     "webpack": "^4.35.0"
   },
   "scripts": {
@@ -47,8 +46,12 @@
   },
   "devDependencies": {
     "@storybook/addon-actions": "^5.1.9",
+    "@storybook/addon-info": "^5.1.9",
     "@storybook/addons": "^5.1.9",
     "@storybook/react": "^5.1.9",
+    "@types/jest": "^24.0.15",
+    "@types/storybook__react": "^4.0.2",
+    "awesome-typescript-loader": "^5.2.1",
     "babel-eslint": "^10.0.2",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^5.0.0",
@@ -57,6 +60,10 @@
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.2",
     "eslint-plugin-react-hooks": "^1.6.1",
-    "prettier": "^1.18.2"
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "react-docgen-typescript-loader": "^3.1.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.2"
   }
 }
