@@ -7,6 +7,7 @@ interface Props {
   children: any
   /**
    * Custom class name
+   * @default "button-deafult"
    */
   className?: string
   /**
@@ -16,11 +17,11 @@ interface Props {
   theme?: string
   /**
    * Button disabled status
+   * @default false
    */
   disabled?: boolean
   /**
    * On click callback
-   * @default undefined
    */
   onClick?: (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => void
 }
